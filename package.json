@@ -1,0 +1,24 @@
+{
+  "name": "full-backend-firsttest",
+  "version": "1.0.0",
+  "description": "Thu lung tung khi moi bat dau lam node",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "react"
+  ],
+  "author": "Trung",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.7",
+    "sequelize": "^6.37.3",
+    "tedious": "^18.2.0"
+  }
+}
